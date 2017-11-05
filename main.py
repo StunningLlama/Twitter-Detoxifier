@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 from time import sleep
 import socket
-from file import HD44780
+from lcd import HD44780
 
 GPIO.setmode(GPIO.BCM)
 lcd = HD44780()
